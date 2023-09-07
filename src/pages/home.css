@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body{
+    background: linear-gradient(to bottom left, #ffffff 15%, #66ffff 100%);
+    min-height: 713px;
+}
+.nav-bar{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 80px;
+    background: white;
+    display: flex;
+    line-height: 80px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.nav-bar .left{
+    padding-left: 80px;
+}
+.nav-bar .left a{
+    font-size: 30px;
+    color: rgb(78, 76, 76);
+}
+.nav-bar .right ul{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 0;
+    padding-right: 80px;
+}
+.nav-bar .right ul li{
+    padding: 0 30px;
+}
+.nav-bar .right ul li a{
+    font-size: 30px;
+    color: rgb(112, 110, 110);
+}
+section .container .top-header{
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    padding: 20px 100px;
+}
+section .container .top-header .image{
+    display: flex;
+    align-items: center;
+}
+section .container .top-header .image img{
+    height: 95px;
+    width: 100px;
+}
+section .container .top-header .copy{
+    margin-left: 36px;
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,.2);
+}
+section .container .top-header .copy h1{
+    padding:  30px 80px;
+    font-family: serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(94, 91, 91);
+
+}
+section .container .top-header .copy span{
+    font-family: serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+section .container .data-body{
+    display: flex;
+    padding: 50px 100px 170px;
+}
+section .container .data-body .left{
+    width: 100%;
+}
+section .container .data-body .left h1{
+    font-weight: 200;
+    padding-bottom: 20px;
+    font-size: 32px;
+    color: black;
+}
+section .container .data-body .left h3{
+    font-weight: 200;
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: black;
+}
+section .container .data-body .left .buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+section .container .data-body .left .buttons button{
+    padding: 15px;
+    border-radius: 50px;
+    width: 130px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+#g{
+    background: #c3f0f1;
+}
+section .container .data-body .right{
+    width: 100%;
+    font-size: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 5px;
+}
+.footer .container a{
+    font-size: 20px;
+    color: black;
+}
+
+@media (max-width:1480px){
+    section .container .data-body .left h1{
+        font-size: 28px;
+    }
+    section .container .data-body .left h3{
+        font-size: 20px;
+    }
+}
+@media (max-width:1040px){
+    section .container .data-body .left h1{
+        font-size: 22px;
+    }
+    section .container .data-body .left h3{
+        font-size: 16px;
+    }
+    section .container .data-body .right{
+        font-size: 100px;
+    }
+    section .container .top-header .image img{
+        height: 75px;
+        width: 80px;
+    }
+    section .container .top-header .copy h1{
+        padding: 5px 53px;
+        font-size: 20px;
+    }
+    .nav-bar .left a{
+        font-size: 20px;
+    }
+    .nav-bar .right ul li a{
+        font-size: 20px;
+    }
+    section .container .top-header .copy span{
+        font-size: 15px;
+    }
+    .body{
+        min-height: 638px;
+    }
+}
+@media (max-width: 1366px){
+    .body {
+        min-height: 607px;
+    }
+}
+@media (max-width: 1280px){
+    .body {
+        height: 565px;
+    }
+    section .container .data-body .right{
+        font-size: 120px;
+        padding-bottom: 35px;
+    }
+    section .container .data-body .left h1{
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+    section .container .data-body .left h3{
+        font-size: 16px;
+    }
+    section .container .data-body{
+        padding: 34px 100px 80px;
+    }
+}
+@media (max-width: 1024px){
+    .body {
+        height: 456px;
+    }
+    section .container .data-body{
+        padding: 34px 80px 80px;
+    }
+}
+@media (max-width: 786px){
+    .body {
+        min-height: 360px;
+    }
+    .nav-bar .left{
+        padding-left: 20px;
+    }
+    .nav-bar .right ul{
+        padding-right: 20px;
+    }
+    .nav-bar .right ul li{
+        padding: 0 10px;
+    }
+    section .container .top-header .image img{
+        height: 51px;
+        width: 53px;
+    }
+    section .container .top-header .copy h1{
+        padding: 5px 14px;
+        font-size: 14px;
+    }
+    section .container .top-header{
+        padding: 10px 10px;
+    }
+    section .container .top-header .copy{
+        margin-left: 10px;
+    }
+    section .container .data-body{
+        padding: 34px 10px;
+    }
+    section .container .data-body .left h1{
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    section .container .data-body .left h3{
+        font-size: 9px;
+    }
+    section .container .data-body .right{
+        font-size: 80px;
+        padding-bottom: 35px;
+    }
+    section .container .data-body .left .buttons{
+        margin-top: 30px;
+    }
+    section .container .data-body .left .buttons button {
+        padding: 10px;
+        width: 108px;
+        margin: 0 5px;
+        font-size: 11px;
+    }
+    .footer .container a{
+        font-size: 11px;
+    }
+    .nav-bar .right ul li a {
+        font-size: 14px;
+    }
+    .nav-bar .left a {
+        font-size: 14px;
+    }
+    .nav-bar {
+        height: 55px;
+        line-height: 55px;
+    }
+    section .container .top-header .copy span {
+        font-size: 10px;
+    }
+}
+@media (max-width: 640px){
+    .body {
+        min-height: 325px;
+    }
+}
+@media (max-width: 672px){
+    .body {
+        height: 320px;
+    }
+    .nav-bar .left{
+        padding-left: 20px;
+    }
+    .nav-bar .right ul{
+        padding-right: 20px;
+    }
+    .nav-bar .right ul li{
+        padding: 0 10px;
+    }
+    section .container .top-header .image img{
+        height: 51px;
+        width: 53px;
+    }
+    section .container .top-header .copy h1{
+        padding: 5px 14px;
+        font-size: 14px;
+    }
+    section .container .top-header{
+        padding: 10px 10px;
+    }
+    section .container .top-header .copy{
+        margin-left: 10px;
+    }
+    section .container .data-body{
+        padding: 34px 10px;
+    }
+    section .container .data-body .left h1{
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    section .container .data-body .left h3{
+        font-size: 9px;
+    }
+    section .container .data-body .right{
+        font-size: 80px;
+        padding-bottom: 35px;
+    }
+    section .container .data-body .left .buttons{
+        margin-top: 30px;
+    }
+    section .container .data-body .left .buttons button {
+        padding: 10px;
+        width: 108px;
+        margin: 0 5px;
+        font-size: 11px;
+    }
+    .footer .container a{
+        font-size: 11px;
+    }
+    .nav-bar .right ul li a {
+        font-size: 14px;
+    }
+    .nav-bar .left a {
+        font-size: 14px;
+    }
+    .nav-bar {
+        height: 55px;
+        line-height: 55px;
+    }
+    section .container .top-header .copy span {
+        font-size: 10px;
+    }
+}
+
